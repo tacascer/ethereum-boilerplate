@@ -118,11 +118,17 @@ const App = ({ isServerInfo }) => {
             <Route path="/nftBalance">
               <NFTBalance />
             </Route>
+            <Route path="/nftMarket">
+              <NFTBalance />
+            </Route>
+            <Route path="/transactions">
+              <NFTBalance />
+            </Route>
             <Route path="/contract">
               <Contract />
             </Route>
             <Route path="/">
-              <Redirect to="/quickstart" />
+              <Redirect to="/nftBalance" />
             </Route>
             <Route path="/ethereum-boilerplate">
               <Redirect to="/quickstart" />
